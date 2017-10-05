@@ -1,0 +1,171 @@
+.popUp-overlay{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(125,125,127, 0.8);
+    z-index: 99999;
+    overflow-y: scroll;
+}
+
+.news_popup_message{
+    display: none;
+    width: 960px;
+    /* margin: 150px auto 0; */
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+    top: 50%;
+}
+
+.pop-up1{
+    display: none;
+    width: 960px;
+    /* margin: 150px auto 0; */
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+    top: 50%;
+    margin-top: -300px;
+}
+
+.pop-up1 .topBlock{
+    background: url("images/paraplan-bg.png") no-repeat;
+    height: 350px;
+    background-size: cover;
+    position: relative;
+}
+
+.closeModal{
+    background: url("images/closeModal.png") no-repeat;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    opacity: 0.85;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.closeModal:hover{
+    opacity: 1;
+}
+.mainBook{
+    width: 290px;
+    position: absolute;
+    top:25px;
+    right: 75px;
+    background: rgba(72, 72, 72, 0.5);
+    padding: 5px;
+    font-family: Arial;
+    color: rgb(206, 206, 206);
+    border-radius: 5px;
+}
+
+.titleBook{
+    text-align: right;
+    font-size: 14px;
+}
+.mainBook h2{
+    font-size: 32px;
+    margin: 0;
+    line-height: normal;
+}
+
+.mainBook p{
+    margin: 5px 0  10px ;
+    font-size: 14px;
+}
+.mainBook ul{
+    padding-left: 10px;
+}
+.mainBook li{
+    font-size: 18px;
+    list-style: none;
+    margin: 5px 0;
+}
+
+.mainBook li:before{
+    display: inline-block;
+    content: '';
+    background: url("images/book_ok.png") no-repeat;
+    height: 11px;
+    width: 11px;
+    position: relative;
+    left: -5px;
+}
+
+.pop-up1 .bottomBlock, .news_popup_message .bottomBlock{
+    position: relative;
+    padding: 30px 70px 25px;
+    background: #f2f2f2;
+}
+
+.pop-up1 .bottomBlock h1{
+    display: block;
+    max-width: 410px;
+    margin: 0 auto;
+    color: #333333;
+    font-family: Arial;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.pop-up1 .bottomBlock p{
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    color: #888888;
+    margin: 15px 0 30px;
+}
+
+.pop-up1 form{
+    min-height: 40px;
+}
+
+.pop-up1 .bottomBlock input[type='text']{
+    width: 230px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    border: 1px solid #aaaaaa;
+    font-family: Arial;
+    color: #888888;
+    font-size: 14px;
+    float: left;
+    margin-right: 30px;
+}
+
+.pop-up1 .bottomBlock input[type='submit']{
+    width: 242px;
+    height: 42px;
+    line-height: 42px;
+    color: #fcefef;
+    background: #d1432d;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    border: none;
+    margin-left: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.pop-up1 .bottomBlock input[type='submit']:hover{
+    background: #bb3621;
+}
+.checkMail{
+    font-family: Arial;
+    color: #888888;
+    font-size: 14px;
+    text-align: right;
+    margin-top:10px;
+    position: relative;
+    left: -5px;
+}
